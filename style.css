@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+.first {
+    background-color:pink;
+    display: flex;
+    margin-bottom: 100px;
+    color: blueviolet;
+    width: auto;
+    height: 550px;
+    align-items: center;
+    padding-left: 200px;
+}
+.half-width img {
+    border-radius: 600px;
+    
+}
+h1 {
+    font-size: 60px;
+}
+
+@media screen and (max-width:576px) {
+    .first {
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 70%;
+        padding: 40%;
+    }
+}
+@media screen and (max-width:576px) and (max-width:992px) {
+    .first {
+        display: flex;
+        flex-direction: column;
+        padding: 50%;
+        
+    }
+}
+
+.first-2 {
+    display: flex;
+    padding-left: 10px;
+    box-shadow: 0px 0px 10px tomato;
+    width: 58%;
+    margin-left: 20%;
+    border-radius: 15px;
+    border: 5px solid rgb(240 81 166);
+    margin-bottom: 50px;
+    margin-top: 140px;
+    transition:1s ;
+}
+@media screen and (max-width:576px) {
+    .first-2 {
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        width: 50px; 
+        padding: 10%;     
+ }
+}
+@media screen and (max-width:576px) and (max-width:576px) {
+    .first-2 {
+      display: flex;  
+      flex-direction: column;
+      padding-left: 10%;
+ }
+}
+.first-2 img :hover {
+    transform: scale(1.1);
+}
+.hero {
+    margin-left: 550px;
+    padding-left: 100px;
+}
+@media screen and (max-width:576px) {
+    .hero {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-right: 550px;
+    }
+    
+}
+
+.first-3 {
+    display: flex;
+    padding: 20px;
+    margin-left: 130px;
+    width: 80%;
+    margin-left: 130px;
+
+}
+
+@media screen and (max-width:576px) {
+    .first-3 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    } 
+}
+.ms {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.ruma{
+    background-color: bisque;
+    margin: 50px ;
+    width: 30%;
+    border-radius: 50px;
+}
+.rupa{
+    background-color: aqua;
+    box-shadow: 0px 0px 10px rebeccapurple;
+    width:40%;
+    border-radius: 30px;
+}
+.btn{
+    text-decoration: none;
+    background-color: rgb(94, 145, 196);
+    color: white;
+    font-weight: 700px;
+    padding:10px;
+    border-radius:10px;
+    margin-top: 30px;
+}
+.btn :hover{
+
+}
+.first-3 p{
+    margin-bottom: 40px;
+}
+
+.rina p {
+    margin: 15px;
+    padding: 15px;
+}
+
+
+.first-4{
+    display: flex;
+}
+
+.ss img{
+    border-radius: 50px;
+    background-color: skyblue;
+    padding-right: 50px;
+}
+@media screen and (max-width:576px) {
+    .first-4 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    } 
+}
